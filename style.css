@@ -25,6 +25,7 @@ body {
     background-image: linear-gradient(0deg, rgba(220, 234, 248, 0.792), rgba(171, 179, 192, 0.796));
 }
 
+
 .thecover {
     width: 100%;
     height: 50%;
@@ -40,6 +41,29 @@ body {
     width: 200px;
     height: 230px;
     border-radius: 4px;
+}
+.titlesmusic {
+    width: 100%;
+    height: 10%;
+}
+
+.titlesmusic .ftitle {
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.titlesmusic .stitle {
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2e2e2e;
+    text-shadow: 0px 0px 8px black;
+}
+
+.container:hover .titlesmusic .stitle {
+    color: #666666;
 }
 
 /* html{
